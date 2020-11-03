@@ -1,8 +1,9 @@
 import React from 'react';
 import '../styles/App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './Home';
-import Footer from './Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Footer from './shared/Footer';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
         <>
           <Switch>
             <Route exact path="/" component={Home} />
-            {/* <Route path="/about" component={About} />
-            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/about" component={About} />
+            {/* <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} /> */}
           </Switch>
         </>

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import NavButton from './NavButton';
+import NavButton from '../shared/NavButton';
  
 const Home: React.FunctionComponent = () => {
   return ( 
